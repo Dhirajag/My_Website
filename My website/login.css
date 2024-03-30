@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    /* Design the webpage */
+    body {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #ffffff;
+    }
+    /* Basic structure of login form */
+    .form {
+    position: relative;
+    padding: 60px 15px;
+    width: 270px;
+    height: 350px;
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px rgb(116, 119, 114);
+    border-radius: 5px;
+    }
+    /* The main area of the login form */
+    .form-inner {
+    position: absolute;
+    height: 98%;
+    width: 98%;
+    top: 50%;
+    left: 50%;
+    background: #000000;
+    transform: translate(-50%, -50%);
+    }
+    
+    .content {
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    }
+    /* Heading design of login form */
+    .form-inner h2 {
+    font-size: 25px;
+    color: #9cbca1;
+    text-align: center;
+    padding-top: 35px;
+    }
+    /* Place to input the login form */
+    .input {
+    display: block;
+    padding: 12px 15px;
+    width: 100%;
+    left: 50%;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1.5px solid rgb(63, 199, 25);
+    outline: none;
+    background: #0b3208;
+    color: rgb(255, 255, 255);
+    }
+    /* Login button */
+    .btn {
+    cursor: pointer;
+    color: rgb(101, 7, 7);
+    margin-top: 40px;
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    background: #135011;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.4s;
+    }
+    .btn:hover {
+    background: #0f4a21;
+    }
+    /* Border animation of login form */
+    .form span {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    }
+    /* Animation of the first line */
+    .form span:nth-child(1) {
+    background: #3806cf;
+    top: 0;
+    left: -48%;
+    animation: 5s span1 infinite linear;
+    animation-delay: 1s;
+    }
+    
+    @keyframes span1 {
+    0% {
+      top: -48%;
+      left: -48%;
+    }
+    25% {
+      top: -48%;
+      left: 98%;
+    }
+    50% {
+      top: 98%;
+      left: 98%;
+    }
+    75% {
+      top: 98%;
+      left: -48%;
+    }
+    100% {
+      top: -48%;
+      left: -48%;
+    }
+    }
+    /* Animation of the second line */
+    .form span:nth-child(2) {
+    background: #00a800;
+    bottom: 0;
+    right: -48%;
+    animation: 5s span2 infinite linear;
+    }
+    
+    @keyframes span2 {
+    0% {
+      bottom: -48%;
+      right: -48%;
+    }
+    25% {
+      bottom: -48%;
+      right: 98%;
+    }
+    50% {
+      bottom: 98%;
+      right: 98%;
+    }
+    75% {
+      bottom: 98%;
+      right: -48%;
+    }
+    100% {
+      bottom: -48%;
+      right: -48%;
+    }
+    }
+    /* Animation of the third line */
+    .form span:nth-child(3) {
+    background: #800080;
+    right: -48%;
+    top: 0px;
+    animation: 5s span3 infinite linear;
+    }
+    
+    @keyframes span3 {
+    0% {
+      top: -48%;
+      left: -48%;
+    }
+    25% {
+      top: -48%;
+      left: 98%;
+    }
+    50% {
+      top: 98%;
+      left: 98%;
+    }
+    75% {
+      top: 98%;
+      left: -48%;
+    }
+    100% {
+      top: -48%;
+      left: -48%;
+    }
+    }
+    /* Animation of the fourth line */
+    .form span:nth-child(4) {
+    background: #ff0000;
+    bottom: 0;
+    right: -48%;
+    animation: 5s span4 infinite linear;
+    animation-delay: 1s;
+    }
+    
+    @keyframes span4 {
+    0% {
+      bottom: -48%;
+      right: -48%;
+    }
+    25% {
+      bottom: -48%;
+      right: 98%;
+    }
+    50% {
+      bottom: 98%;
+      right: 98%;
+    }
+    75% {
+      bottom: 98%;
+      right: -48%;
+    }
+    100% {
+      bottom: -48%;
+      right: -48%;
+    }
+    }
